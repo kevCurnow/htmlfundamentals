@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+<form>
+	Customer Name: <input type="text" name="custName"><br><br>
+	Street Address: <input type="text" name="streetAdr"><br><br>
+	City: <input type="text" name="cityBox"><br><br>
+	Area Code: <input type="text" name="areaCode"><br><br>
+	Telephone: <input type="text" name="phoneNum"><br><br>
+</form>
+<br>
+<form>
+	<fieldset>
+		<legend>Customer Information</legend>
+		Customer name: <input type="text" name="custName"><br><br>
+		Telephone: <input type="text" name="phoneNum"><br><br>
+		E-mail address: <input type="text" name="emailAdr"><br><br>
+	</fieldset>
+</form>
+<br><br>
+<form>
+	<fieldset>
+		<legend>Biggest Burritos in the World!</legend>
+		<input type="radio" name="size" value="Humongous" checked> Humongous<br>
+		<input type="radio" name="size" value="doubleHumongous"> Double-Humongous<br>
+		<input type="radio" name="size" value="tripleHumongous"> Triple-Humongous<br>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Fixins</legend>
+		<input type="checkbox" name="fixins" value="sauteedOnions" checked> Sauteed Onions<br>
+		<input type="checkbox" name="fixins" value="guac"> Guacamole<br>
+		<input type="checkbox" name="fixins" value="queso"> Queso<br>
+		<input type="checkbox" name="fixins" value="lettuce"> Lettuce<br>
+		<input type="checkbox" name="fixins" value="refryBeans"> Refried Beans<br>
+		<input type="checkbox" name="fixins" value="rice"> Rice<br>
+	</fieldset>
+	<br>
+	<fieldset>
+		Preferred delivery time: <input type=time min="11:00" max="21:00" step="900"><br><br>
+		Delivery instructions: <textarea></textarea><br><br>
+		<input type="submit" value="Submit Order">
+	</fieldset>
+</form>
+</body>
+</html>
